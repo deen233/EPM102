@@ -75,7 +75,7 @@ We recommend you also make use of the LSHTM Library & Archives Service. Details 
 ## Module calendar
 
 | **Date** | **Event** |
-|:-----------------------------------|:-----------------------------------|
+|:---|:---|
 | October | Tutoring support begins (Moodle discussion forums, email queries, assignment marking). |
 | 31 March | Final submission date for the Formative Assignments (FAs). |
 | April | Exam practice web forums open 6 weeks prior to the exam. |
@@ -937,7 +937,7 @@ Have a go on your own (the solutions are in Section 3).
 In this session you are going to use the Whitehall data to practice what you learnt in CAL session SE07. In sessions WB05 and WB06 you saw how to:
 
 | **Task** | **R function** |
-|------------------------------------|------------------------------------|
+|----|----|
 | Compute a confidence interval around a mean | t.test(x)conf.int |
 | Test the hypothesis that the mean is equal to a given value | t.test(x) |
 | Compute a confidence interval around a mean difference, | t.test(x,y, paired = T)\$conf.int |
