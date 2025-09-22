@@ -263,3 +263,22 @@ plot(
 ::: callout-note
 ## The scatter plot is used to help assess whether there appears to be an association between two quantitative variables, here birthweight and maternal age. This subject is discussed in greater detail in SC14 & SC15, and in the associated practical WB14/15.
 :::
+
+# Practical WB05: Inference from a sample mean
+
+In this session, you are going to use the Babies data to illustrate the material presented in the CAL session SE05.
+
+Packages required for WB02
+
+```{r}
+library(rio) 
+library(tidyverse)
+```
+
+Import the babies dataset
+
+```{r}
+babies<-import("babies.csv")
+```
+
+Exploring data using the summarise function
